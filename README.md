@@ -14,7 +14,7 @@ setup Vundle for vim as plugin
 get file from: https://github.com/marc47marc47/codeium/blob/main/_vimrc
 ```
 
-``` text
+```vi
 filetype off
 set shellslash
 set rtp+=~/vimfiles/bundle/Vundle.vim
@@ -41,24 +41,24 @@ filetype plugin indent on    " required
 
 5. cd C:\Users\marc4 and mkdir vimfiles\bundle
 6. cd vimfiles\bundle
-   ``` bat
+   ```bat
    git clone https://github.com/VundleVim/Vundle.vim.git Vundle.vim
    ```
 
 8. download codeium
-   ``` bat
+   ```bat
    git clone https://github.com/Exafunction/codeium.vim.git
    ```
 
 
 10. start vim and run plugin
-    ``` vi
+    ```vi
    vim a.py
    :PluginInstall
    ```
 
 12. codeium auth, in vim, with browser and google account, paste the Auth and press Enter
-``` vi
+```vi
    :Codeium Auth
 ```
 
