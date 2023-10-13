@@ -1,7 +1,11 @@
 
 setup Vundle for vim as plugin
 1. install Git for Windows installer 
-2. download Vundle: https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe
+download and install:
+```
+https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe
+```
+
 3. make sure git version and curl version
 ```bat
    C:\> git --version
@@ -9,8 +13,8 @@ setup Vundle for vim as plugin
    C:\> curl --version
    curl 7.53.1 (x86_64-pc-win32)
    ```
-5. create C:\user\marc4\_vimfile:
-   download from git
+5. create _vimfile in user home folder, like: C:\user\marc4\_vimfile:
+   download _vimfile from git
 ```bat
 get file from: https://github.com/marc47marc47/codeium/blob/main/_vimrc
 ```
