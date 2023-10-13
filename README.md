@@ -13,7 +13,7 @@ https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2
    C:\> curl --version
    curl 7.53.1 (x86_64-pc-win32)
    ```
-3. create _vimfile in user home folder, like: C:\user\marc4\_vimfile:
+3. create _vimfile in user home folder, like: C:\user\marc4\\_vimfile:
    download _vimfile from git
 ```bat
 get file from: https://github.com/marc47marc47/codeium/blob/main/_vimrc
