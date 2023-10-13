@@ -3,14 +3,18 @@ setup Vundle for vim as plugin
 1. install Git for Windows installer 
 2. download Vundle: https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe
 3. make sure git version and curl version
+   ```bat
    C:\> git --version
    git version 2.12.2.windows.2
    C:\> curl --version
    curl 7.53.1 (x86_64-pc-win32)
-4. create C:\user\marc4\_vimfile:
+   ```
+5. create C:\user\marc4\_vimfile:
+   ```bat
 get file from: https://github.com/marc47marc47/codeium/blob/main/_vimrc
+```
 
-""" text
+``` text
 filetype off
 set shellslash
 set rtp+=~/vimfiles/bundle/Vundle.vim
@@ -33,22 +37,30 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-"""
+```
 
 5. cd C:\Users\marc4 and mkdir vimfiles\bundle
 6. cd vimfiles\bundle
+   ``` bat
    git clone https://github.com/VundleVim/Vundle.vim.git Vundle.vim
+   ```
 
-7. download codeium
+8. download codeium
+   ``` bat
    git clone https://github.com/Exafunction/codeium.vim.git
+   ```
 
 
-8. start vim and run plugin
+10. start vim and run plugin
+    ``` vi
    vim a.py
    :PluginInstall
+   ```
 
-9. codeium auth, in vim, with browser and google account, paste the Auth and press Enter
+12. codeium auth, in vim, with browser and google account, paste the Auth and press Enter
+``` vi
    :Codeium Auth
+```
 
 
 
