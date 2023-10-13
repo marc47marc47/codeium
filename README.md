@@ -10,10 +10,11 @@ setup Vundle for vim as plugin
    curl 7.53.1 (x86_64-pc-win32)
    ```
 5. create C:\user\marc4\_vimfile:
+   download from git
 ```bat
 get file from: https://github.com/marc47marc47/codeium/blob/main/_vimrc
 ```
-
+or create manual
 ```vi
 filetype off
 set shellslash
@@ -39,8 +40,13 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 ```
 
-5. cd C:\Users\marc4 and mkdir vimfiles\bundle
-6. cd vimfiles\bundle
+5. create folder vimfiles
+```bat
+cd C:\Users\marc4
+mkdir vimfiles\bundle
+```
+
+7. cd vimfiles\bundle
    ```bat
    git clone https://github.com/VundleVim/Vundle.vim.git Vundle.vim
    ```
