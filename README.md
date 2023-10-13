@@ -6,14 +6,14 @@ download and install:
 https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe
 ```
 
-3. make sure git version and curl version
+2. make sure git version and curl version
 ```bat
    C:\> git --version
    git version 2.12.2.windows.2
    C:\> curl --version
    curl 7.53.1 (x86_64-pc-win32)
    ```
-5. create _vimfile in user home folder, like: C:\user\marc4\_vimfile:
+3. create _vimfile in user home folder, like: C:\user\marc4\_vimfile:
    download _vimfile from git
 ```bat
 get file from: https://github.com/marc47marc47/codeium/blob/main/_vimrc
@@ -44,30 +44,30 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 ```
 
-5. create folder vimfiles
+4. create folder vimfiles
 ```bat
 cd C:\Users\marc4
 mkdir vimfiles\bundle
 ```
 
-7. cd vimfiles\bundle
+4. cd vimfiles\bundle
    ```bat
    git clone https://github.com/VundleVim/Vundle.vim.git Vundle.vim
    ```
 
-8. download codeium
+5. download codeium
    ```bat
    git clone https://github.com/Exafunction/codeium.vim.git
    ```
 
 
-10. start vim and run plugin
+6. start vim and run plugin
    ```vi
    vim a.py
    :PluginInstall
    ```
 
-12. codeium auth, in vim, with browser and google account, paste the Auth and press Enter
+7. codeium auth, in vim, with browser and google account, paste the Auth and press Enter
 ```vi
    :Codeium Auth
 ```
