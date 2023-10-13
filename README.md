@@ -8,6 +8,8 @@ setup Vundle for vim as plugin
    C:\> curl --version
    curl 7.53.1 (x86_64-pc-win32)
 4. create C:\user\marc4\_vimfile:
+get file from: https://github.com/marc47marc47/codeium/blob/main/_vimrc
+""" vim
 filetype off
 set shellslash
 set rtp+=~/vimfiles/bundle/Vundle.vim
@@ -30,7 +32,7 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
+"""
 
 5. cd C:\Users\marc4 and mkdir vimfiles\bundle
 6. cd vimfiles\bundle
